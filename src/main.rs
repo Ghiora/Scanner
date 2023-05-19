@@ -10,6 +10,7 @@ fn main() {
       device_desc.product_id());
     }
 
+    println!("testing2");
 }
 
 #[test]
