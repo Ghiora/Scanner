@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src"
   ],
-  "SelectedNode": "\\C:\\Users\\ghior\\source\\repos\\Scanner",
+  "SelectedNode": "\\src\\main.rs",
   "PreviewInSolutionExplorer": false
 }

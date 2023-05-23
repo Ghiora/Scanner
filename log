@@ -1,0 +1,767 @@
+Bus 001 Device 003 ID 05e3:0612 USB Speed:5000 Mbps
+Bus 001 Device 007 ID 1fd2:6007 USB Speed:  12 Mbps
+Bus 001 Device 002 ID 05e3:0610 USB Speed: 480 Mbps
+Bus 001 Device 008 ID 04f2:b52c USB Speed: 480 Mbps
+Bus 001 Device 001 ID 046d:c534 USB Speed:  12 Mbps
+Bus 001 Device 000 ID 8086:9d2f USB Speed:5000 Mbps
+Bus 001 Device 006 ID 8087:0a2b USB Speed:  12 Mbps
+Bus 001 Device 004 ID 138a:0017 USB Speed:  12 Mbps
+Bus 001 Device 005 ID 0403:6001 USB Speed:  12 Mbps
+libusb v1.0.26.11724
+has capability? true
+has hotplug? false
+has HID access? true
+supports detach kernel driver? false
+Bus 001 Device 003 ID 05e3:0612 5000 Mbps
+Device Descriptor:
+  bcdUSB              3.10
+  bDeviceClass        0x09
+  bDeviceSubClass     0x00
+  bDeviceProtocol     0x03
+  bMaxPacketSize0        9
+  idVendor          0x05e3 Genesys Logic, Inc.
+  idProduct         0x0612 Hub
+  bcdDevice          92.26
+  iManufacturer          1 
+  iProduct               2 
+  iSerialNumber          0 
+  bNumConfigurations     1
+  Config Descriptor:
+    bNumInterfaces         1
+    bConfigurationValue    1
+    iConfiguration         0 
+    bmAttributes:
+      Self Powered      true
+      Remote Wakeup     true
+    bMaxPower              0mW
+    no extra data
+    Interface Descriptor:
+      bInterfaceNumber       0
+      bAlternateSetting      0
+      bNumEndpoints          1
+      bInterfaceClass     0x09
+      bInterfaceSubClass  0x00
+      bInterfaceProtocol  0x00
+      iInterface             1 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x83 EP 3 In
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Feedback
+        wMaxPacketSize    0x0002
+        bInterval              8
+Bus 001 Device 007 ID 1fd2:6007   12 Mbps
+Device Descriptor:
+  bcdUSB              2.00
+  bDeviceClass        0xef
+  bDeviceSubClass     0x02
+  bDeviceProtocol     0x01
+  bMaxPacketSize0       64
+  idVendor          0x1fd2 Unknown vendor
+  idProduct         0x6007 Unknown product
+  bcdDevice           1.00
+  iManufacturer          1 Melfas
+  iProduct               2 LGDisplay Incell Touch
+  iSerialNumber          0 
+  bNumConfigurations     1
+  Config Descriptor:
+    bNumInterfaces         2
+    bConfigurationValue    1
+    iConfiguration         0 
+    bmAttributes:
+      Self Powered      true
+      Remote Wakeup     true
+    bMaxPower            100mW
+    no extra data
+    Interface Descriptor:
+      bInterfaceNumber       0
+      bAlternateSetting      0
+      bNumEndpoints          2
+      bInterfaceClass     0x03
+      bInterfaceSubClass  0x00
+      bInterfaceProtocol  0x00
+      iInterface             3 Touch Interface
+    no extra data
+      Endpoint Descriptor:
+        bEndpointAddress    0x01 EP 1 Out
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              1
+      Endpoint Descriptor:
+        bEndpointAddress    0x82 EP 2 In
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      0
+      bNumEndpoints          2
+      bInterfaceClass     0x03
+      bInterfaceSubClass  0x00
+      bInterfaceProtocol  0x00
+      iInterface             4 Custom Interface
+    no extra data
+      Endpoint Descriptor:
+        bEndpointAddress    0x03 EP 3 Out
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              1
+      Endpoint Descriptor:
+        bEndpointAddress    0x84 EP 4 In
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              1
+Bus 001 Device 002 ID 05e3:0610  480 Mbps
+Device Descriptor:
+  bcdUSB              2.10
+  bDeviceClass        0x09
+  bDeviceSubClass     0x00
+  bDeviceProtocol     0x02
+  bMaxPacketSize0       64
+  idVendor          0x05e3 Genesys Logic, Inc.
+  idProduct         0x0610 Hub
+  bcdDevice          92.26
+  iManufacturer          1 
+  iProduct               2 
+  iSerialNumber          0 
+  bNumConfigurations     1
+  Config Descriptor:
+    bNumInterfaces         1
+    bConfigurationValue    1
+    iConfiguration         0 
+    bmAttributes:
+      Self Powered      true
+      Remote Wakeup     true
+    bMaxPower            100mW
+    no extra data
+    Interface Descriptor:
+      bInterfaceNumber       0
+      bAlternateSetting      0
+      bNumEndpoints          1
+      bInterfaceClass     0x09
+      bInterfaceSubClass  0x00
+      bInterfaceProtocol  0x01
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0001
+        bInterval             12
+    Interface Descriptor:
+      bInterfaceNumber       0
+      bAlternateSetting      1
+      bNumEndpoints          1
+      bInterfaceClass     0x09
+      bInterfaceSubClass  0x00
+      bInterfaceProtocol  0x02
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0001
+        bInterval             12
+Bus 001 Device 008 ID 04f2:b52c  480 Mbps
+Device Descriptor:
+  bcdUSB              2.00
+  bDeviceClass        0xef
+  bDeviceSubClass     0x02
+  bDeviceProtocol     0x01
+  bMaxPacketSize0       64
+  idVendor          0x04f2 Chicony Electronics Co., Ltd
+  idProduct         0xb52c Unknown product
+  bcdDevice           0.29
+  iManufacturer          3 
+  iProduct               1 
+  iSerialNumber          2 
+  bNumConfigurations     1
+  Config Descriptor:
+    bNumInterfaces         2
+    bConfigurationValue    1
+    iConfiguration         4 
+    bmAttributes:
+      Self Powered     false
+      Remote Wakeup    false
+    bMaxPower            500mW
+    [8, 11, 0, 2, 14, 3, 0, 5]
+    Interface Descriptor:
+      bInterfaceNumber       0
+      bAlternateSetting      0
+      bNumEndpoints          1
+      bInterfaceClass     0x0e
+      bInterfaceSubClass  0x01
+      bInterfaceProtocol  0x00
+      iInterface             5 
+    no extra data
+      Endpoint Descriptor:
+        bEndpointAddress    0x83 EP 3 In
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0010
+        bInterval              6
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      0
+      bNumEndpoints          0
+      bInterfaceClass     0x0e
+      bInterfaceSubClass  0x02
+      bInterfaceProtocol  0x00
+      iInterface             0 
+    no extra data
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      1
+      bNumEndpoints          1
+      bInterfaceClass     0x0e
+      bInterfaceSubClass  0x02
+      bInterfaceProtocol  0x00
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             Asynchronous
+          Usage Type             Data
+        wMaxPacketSize    0x0080
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      2
+      bNumEndpoints          1
+      bInterfaceClass     0x0e
+      bInterfaceSubClass  0x02
+      bInterfaceProtocol  0x00
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             Asynchronous
+          Usage Type             Data
+        wMaxPacketSize    0x0200
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      3
+      bNumEndpoints          1
+      bInterfaceClass     0x0e
+      bInterfaceSubClass  0x02
+      bInterfaceProtocol  0x00
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             Asynchronous
+          Usage Type             Data
+        wMaxPacketSize    0x0400
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      4
+      bNumEndpoints          1
+      bInterfaceClass     0x0e
+      bInterfaceSubClass  0x02
+      bInterfaceProtocol  0x00
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             Asynchronous
+          Usage Type             Data
+        wMaxPacketSize    0x0b00
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      5
+      bNumEndpoints          1
+      bInterfaceClass     0x0e
+      bInterfaceSubClass  0x02
+      bInterfaceProtocol  0x00
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             Asynchronous
+          Usage Type             Data
+        wMaxPacketSize    0x0c00
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      6
+      bNumEndpoints          1
+      bInterfaceClass     0x0e
+      bInterfaceSubClass  0x02
+      bInterfaceProtocol  0x00
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             Asynchronous
+          Usage Type             Data
+        wMaxPacketSize    0x1380
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      7
+      bNumEndpoints          1
+      bInterfaceClass     0x0e
+      bInterfaceSubClass  0x02
+      bInterfaceProtocol  0x00
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             Asynchronous
+          Usage Type             Data
+        wMaxPacketSize    0x1400
+        bInterval              1
+Bus 001 Device 001 ID 046d:c534   12 Mbps
+Device Descriptor:
+  bcdUSB              2.00
+  bDeviceClass        0x00
+  bDeviceSubClass     0x00
+  bDeviceProtocol     0x00
+  bMaxPacketSize0        8
+  idVendor          0x046d Logitech, Inc.
+  idProduct         0xc534 Unifying Receiver
+  bcdDevice          29.01
+  iManufacturer          1 Logitech
+  iProduct               2 USB Receiver
+  iSerialNumber          0 
+  bNumConfigurations     1
+  Config Descriptor:
+    bNumInterfaces         2
+    bConfigurationValue    1
+    iConfiguration         4 RQR29.01_B0016
+    bmAttributes:
+      Self Powered     false
+      Remote Wakeup     true
+    bMaxPower             98mW
+    no extra data
+    Interface Descriptor:
+      bInterfaceNumber       0
+      bAlternateSetting      0
+      bNumEndpoints          1
+      bInterfaceClass     0x03
+      bInterfaceSubClass  0x01
+      bInterfaceProtocol  0x01
+      iInterface             0 
+    no extra data
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0008
+        bInterval              8
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      0
+      bNumEndpoints          1
+      bInterfaceClass     0x03
+      bInterfaceSubClass  0x01
+      bInterfaceProtocol  0x02
+      iInterface             0 
+    no extra data
+      Endpoint Descriptor:
+        bEndpointAddress    0x82 EP 2 In
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0014
+        bInterval              2
+Bus 001 Device 000 ID 8086:9d2f 5000 Mbps
+Device Descriptor:
+  bcdUSB              3.00
+  bDeviceClass        0x09
+  bDeviceSubClass     0x00
+  bDeviceProtocol     0x03
+  bMaxPacketSize0        9
+  idVendor          0x8086 Intel Corp.
+  idProduct         0x9d2f Unknown product
+  bcdDevice           1.00
+  iManufacturer          0 
+  iProduct               0 
+  iSerialNumber          0 
+  bNumConfigurations     1
+  Config Descriptor:
+    bNumInterfaces         1
+    bConfigurationValue    1
+    iConfiguration         0 
+    bmAttributes:
+      Self Powered      true
+      Remote Wakeup    false
+    bMaxPower              0mW
+    no extra data
+    Interface Descriptor:
+      bInterfaceNumber       0
+      bAlternateSetting      0
+      bNumEndpoints          1
+      bInterfaceClass     0x09
+      bInterfaceSubClass  0x00
+      bInterfaceProtocol  0x00
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0003
+        bInterval             12
+Bus 001 Device 006 ID 8087:0a2b   12 Mbps
+Device Descriptor:
+  bcdUSB              2.00
+  bDeviceClass        0xe0
+  bDeviceSubClass     0x01
+  bDeviceProtocol     0x01
+  bMaxPacketSize0       64
+  idVendor          0x8087 Intel Corp.
+  idProduct         0x0a2b Bluetooth wireless interface
+  bcdDevice           0.01
+  iManufacturer          0 
+  iProduct               0 
+  iSerialNumber          0 
+  bNumConfigurations     1
+  Config Descriptor:
+    bNumInterfaces         2
+    bConfigurationValue    1
+    iConfiguration         0 
+    bmAttributes:
+      Self Powered      true
+      Remote Wakeup     true
+    bMaxPower            100mW
+    no extra data
+    Interface Descriptor:
+      bInterfaceNumber       0
+      bAlternateSetting      0
+      bNumEndpoints          3
+      bInterfaceClass     0xe0
+      bInterfaceSubClass  0x01
+      bInterfaceProtocol  0x01
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              1
+      Endpoint Descriptor:
+        bEndpointAddress    0x02 EP 2 Out
+        bmAttributes:
+          Transfer Type          Bulk
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              1
+      Endpoint Descriptor:
+        bEndpointAddress    0x82 EP 2 In
+        bmAttributes:
+          Transfer Type          Bulk
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      0
+      bNumEndpoints          2
+      bInterfaceClass     0xe0
+      bInterfaceSubClass  0x01
+      bInterfaceProtocol  0x01
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x03 EP 3 Out
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0000
+        bInterval              1
+      Endpoint Descriptor:
+        bEndpointAddress    0x83 EP 3 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0000
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      1
+      bNumEndpoints          2
+      bInterfaceClass     0xe0
+      bInterfaceSubClass  0x01
+      bInterfaceProtocol  0x01
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x03 EP 3 Out
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0009
+        bInterval              1
+      Endpoint Descriptor:
+        bEndpointAddress    0x83 EP 3 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0009
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      2
+      bNumEndpoints          2
+      bInterfaceClass     0xe0
+      bInterfaceSubClass  0x01
+      bInterfaceProtocol  0x01
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x03 EP 3 Out
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0011
+        bInterval              1
+      Endpoint Descriptor:
+        bEndpointAddress    0x83 EP 3 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0011
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      3
+      bNumEndpoints          2
+      bInterfaceClass     0xe0
+      bInterfaceSubClass  0x01
+      bInterfaceProtocol  0x01
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x03 EP 3 Out
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0019
+        bInterval              1
+      Endpoint Descriptor:
+        bEndpointAddress    0x83 EP 3 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0019
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      4
+      bNumEndpoints          2
+      bInterfaceClass     0xe0
+      bInterfaceSubClass  0x01
+      bInterfaceProtocol  0x01
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x03 EP 3 Out
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0021
+        bInterval              1
+      Endpoint Descriptor:
+        bEndpointAddress    0x83 EP 3 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0021
+        bInterval              1
+    Interface Descriptor:
+      bInterfaceNumber       1
+      bAlternateSetting      5
+      bNumEndpoints          2
+      bInterfaceClass     0xe0
+      bInterfaceSubClass  0x01
+      bInterfaceProtocol  0x01
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x03 EP 3 Out
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0031
+        bInterval              1
+      Endpoint Descriptor:
+        bEndpointAddress    0x83 EP 3 In
+        bmAttributes:
+          Transfer Type          Isochronous
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0031
+        bInterval              1
+Bus 001 Device 004 ID 138a:0017   12 Mbps
+Device Descriptor:
+  bcdUSB              1.10
+  bDeviceClass        0xff
+  bDeviceSubClass     0x11
+  bDeviceProtocol     0xff
+  bMaxPacketSize0        8
+  idVendor          0x138a Validity Sensors, Inc.
+  idProduct         0x0017 VFS 5011 fingerprint sensor
+  bcdDevice           0.78
+  iManufacturer          0 
+  iProduct               0 
+  iSerialNumber          1 
+  bNumConfigurations     1
+  Config Descriptor:
+    bNumInterfaces         1
+    bConfigurationValue    1
+    iConfiguration         0 
+    bmAttributes:
+      Self Powered     false
+      Remote Wakeup     true
+    bMaxPower            100mW
+    no extra data
+    Interface Descriptor:
+      bInterfaceNumber       0
+      bAlternateSetting      0
+      bNumEndpoints          4
+      bInterfaceClass     0xff
+      bInterfaceSubClass  0x00
+      bInterfaceProtocol  0x00
+      iInterface             0 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x01 EP 1 Out
+        bmAttributes:
+          Transfer Type          Bulk
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              0
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Bulk
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              0
+      Endpoint Descriptor:
+        bEndpointAddress    0x82 EP 2 In
+        bmAttributes:
+          Transfer Type          Bulk
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              0
+      Endpoint Descriptor:
+        bEndpointAddress    0x83 EP 3 In
+        bmAttributes:
+          Transfer Type          Interrupt
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0008
+        bInterval              4
+Bus 001 Device 005 ID 0403:6001   12 Mbps
+Device Descriptor:
+  bcdUSB              2.00
+  bDeviceClass        0x00
+  bDeviceSubClass     0x00
+  bDeviceProtocol     0x00
+  bMaxPacketSize0        8
+  idVendor          0x0403 Future Technology Devices International, Ltd
+  idProduct         0x6001 FT232 Serial (UART) IC
+  bcdDevice           4.00
+  iManufacturer          1 
+  iProduct               2 
+  iSerialNumber          0 
+  bNumConfigurations     1
+  Config Descriptor:
+    bNumInterfaces         1
+    bConfigurationValue    1
+    iConfiguration         0 
+    bmAttributes:
+      Self Powered     false
+      Remote Wakeup    false
+    bMaxPower            100mW
+    no extra data
+    Interface Descriptor:
+      bInterfaceNumber       0
+      bAlternateSetting      0
+      bNumEndpoints          2
+      bInterfaceClass     0xff
+      bInterfaceSubClass  0xff
+      bInterfaceProtocol  0xff
+      iInterface             2 
+    []
+      Endpoint Descriptor:
+        bEndpointAddress    0x81 EP 1 In
+        bmAttributes:
+          Transfer Type          Bulk
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              0
+      Endpoint Descriptor:
+        bEndpointAddress    0x02 EP 2 Out
+        bmAttributes:
+          Transfer Type          Bulk
+          Synch Type             NoSync
+          Usage Type             Data
+        wMaxPacketSize    0x0040
+        bInterval              0
